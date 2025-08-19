@@ -71,13 +71,7 @@ for i, job_title in enumerate(job_titles):
 plt.show()
 ```
 
-### Results
-
-![Likelihood of Skills Requested in the US Job Postings](images/Likelihood_of_Skills_Requested_in_US_Job_Postings.png)
-
-*Bar graph visualizing the salary for the top 3 data roles and their top 5 skills associated with each.*
-
-### Insights:
+### Results and Insights:
 
 SQL is the top skill for Data Analysts and Data Scientists, while Python leads for Data Engineers (68%).
 
@@ -88,7 +82,6 @@ Python is highly valued across all three roles, especially for Data Scientists (
 ## 2. How are in-demand skills trending for Data Analysts?
 
 To find how skills are trending in 2023 for Data Analysts, I filtered data analyst positions and grouped the skills by the month of the job postings. This got me the top 5 skills of data analysts by month, showing how popular skills were throughout 2023.
-
 
 ### Visualise Data
 
@@ -105,12 +98,7 @@ plt.show()
 
 ```
 
-### Results
-
-![Trending Top Skills for Data Analysts in the US](images/Trending_Top_Skills_for_Data_Analysts_in_the_US.png)  
-*Bar graph visualizing the trending top skills for data analysts in the US in 2023.*
-
-### Insights:
+### Results and Insights:
 - SQL stayed the most in-demand skill year-round, though demand slowly declined.
 
 - Excel demand rose sharply from September, overtaking Python and Tableau by year-end.
@@ -132,12 +120,7 @@ plt.show()
 
 ```
 
-#### Results
-
-![Salary Distributions of Data Jobs in the US](images/Salary_Distributions_of_Data_Jobs_in_the_US.png)  
-*Box plot visualizing the salary distributions for the top 6 data job titles.*
-
-#### Insights
+#### Results and Insights
 
 - Salaries vary widely by role, with Senior Data Scientists earning the most—up to $600K—highlighting the value of advanced expertise.
 
@@ -163,12 +146,7 @@ plt.show()
 
 ```
 
-#### Results
-
-![The Highest Paid & Most In-Demand Skills for Data Analysts in the US](images/Highest_Paid_and_Most_In_Demand_Skills_for_Data_Analysts_in_the_US.png)
-*Two separate bar graphs visualizing the highest paid skills and most in-demand skills for data analysts in the US.*
-
-#### Insights:
+#### Results and Insights:
 
 - Specialized technical skills (e.g., dplyr, Bitbucket, Gitlab) link to higher salaries, sometimes up to $200K.
 
@@ -189,12 +167,7 @@ plt.show()
 
 ```
 
-#### Results
-
-![Most Optimal Skills for Data Analysts in the US](images/Most_Optimal_Skills_for_Data_Analysts_in_the_US.png)    
-*A scatter plot visualizing the most optimal skills (high paying & high demand) for data analysts in the US.*
-
-#### Insights:
+#### Results and Insights:
 
 - Oracle commands the highest median salary (~$97K) despite being less common, showing the value of specialized database expertise.
 
